@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="dist/main.css">
+    <title>Bookshop</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__title"><h1>Bookshop</h1></div>
+            <div class="header__menu">
+                <a href="#">BOOKS</a>
+                <a href="#">AUDIOBOOKS</a>
+                <a href="#">STATIONERY & GIFTS</a>
+                <a href="#">BLOG</a>
+            </div>
+            <div class="header__icons">
+                <a href="#" class="header__icons_user">
+                    <img src="src/images/user.svg" alt="user">
+                </a>
+                <a href="#" class="header__icons_search">
+                    <img src="src/images/search.svg" alt="search">
+                </a>
+                <a href="#" class="header__icons_shop">
+                    <img src="src/images/shop bag.svg" alt="shop">
+                    <span class="basket__count"></span>
+                </a>
+            </div>
+        </div>
+
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="slider">
+                <div class="slider__images">
+                </div>
+            </section>
+
+            <div class="container__promo_lilac">
+                <a href="#">
+                    <p style="color: #1C2A39;">
+                        Change
+                        <br>
+                        old book
+                        <br>
+                        on new
+                    </p>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" width="57" height="14" viewBox="0 0 57 14" fill="none">
+                        <path d="M0 7H54" stroke="#1C2A39" stroke-width="2"></path>
+                        <path d="M48 1L55 7L48 13" stroke="#1C2A39" stroke-width="2"></path>
+                    </svg>
+            </a>
+            </div>
+
+            <div class="container__promo_pink">
+                <a href="#">
+                    <p style="color: #1C2A39;">
+                        top
+                        <br>
+                        100
+                        <br>
+                        books
+                        <br>
+                        2022
+                    </p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="57" height="14" viewBox="0 0 57 14" fill="none">
+                        <path d="M0 7H54" stroke="#1C2A39" stroke-width="2"></path>
+                        <path d="M48 1L55 7L48 13" stroke="#1C2A39" stroke-width="2"></path>
+                    </svg>
+                </a>
+            </div>
+
+            <section class="section-navigation">
+                <ul class="section-navigation__category-list">
+                    <li class="category-list__item"><a class="category-list__item-link active-item" data-category="subject:Architecture">Architecture</a></li>
+                    <li class="category-list__item"><a class="category-list__item-link" data-category="subject:Art">Art & Fashion</a></li>
+                    <li class="category-list__item"><a class="category-list__item-link" data-category="subject:Biography & Autobiography">Biography</a></li>
+                    <li class="category-list__item"><a class="category-list__item-link" data-category="subject:Business">Business</a></li>
+                    <li class="category-list__item"><a class="category-list__item-link" data-category="subject:Crafts & Hobbies">Crafts & Hobbies</a></li>
+                    <li class="category-list__item"><a class="category-list__item-link" data-category="subject:Drama">Drama</a></li>
+                    <li class="category-list__item"><a class="category-list__item-link" data-category="subject:Fiction">Fiction</a></li>
+                    <li class="category-list__item"><a class="category-list__item-link" data-category="subject:Cooking">Food & Drink</a></li>
+                    <li class="category-list__item"><a class="category-list__item-link" data-category="subject:Health & Fitness">Health & Wellbeing</a></li>
+                    <li class="category-list__item"><a class="category-list__item-link" data-category="subject:History">History & Politics</a></li>
+                    <li class="category-list__item"><a class="category-list__item-link" data-category="subject:Humor">Humor</a></li>
+                    <li class="category-list__item"><a class="category-list__item-link" data-category="subject:Poetry">Poetry</a></li>
+                    <li class="category-list__item"><a class="category-list__item-link" data-category="subject:Psychology">Psychology</a></li>
+                    <li class="category-list__item"><a class="category-list__item-link" data-category="subject:Science">Science</a></li>
+                    <li class="category-list__item"><a class="category-list__item-link" data-category="subject:Technology">Technology</a></li>
+                    <li class="category-list__item"><a class="category-list__item-link" data-category="subject:Travel">Travel & Maps</a></li>
+
+                </ul>
+            </section>
+
+            <section class="section__books">
+                <div class="books__body">
+                    <div class="books__cards"></div>
+                    <div class="books__button">
+                        <button class="books__button-btn">
+                            Load more
+                        </button>
+                    </div>
+                    </div>
+            </section>
+
+        </div>
+    </main>
+</body>
+<script src="dist/my-first-webpack.bundle.js"></script>
+<!-- <script src="src/APIBOOKS.js"></script>
+<script src="src/Navigation.js"></script>
+<script src="src/slider.js"></script> -->
+</html>
